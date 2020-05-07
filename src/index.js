@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
+import Hello from './Hello.js';
+import HelloWorld from './HelloWorld.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />    
+    <HelloWorld />
   </React.StrictMode>,
   document.getElementById('root')
 );
